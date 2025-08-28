@@ -1,0 +1,14 @@
+# Node / build artifacts
+node_modules/
+.next/
+dist/
+build/
+
+# IDE / system files
+.vscode/
+*.log
+
+# Environment files
+.env
+frontend/.env
+backend/.env
