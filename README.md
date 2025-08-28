@@ -1,4 +1,26 @@
-# React
+## 📸 Project Preview
+
+<p align="center">
+  <img src="./Output_pics/image.png" alt="Preview 1" width="600"/>
+</p>
+
+<p align="center">
+  <img src="./Output_pics/image1.png" alt="Preview 2" width="600"/>
+</p>
+
+<p align="center">
+  <img src="./Output_pics/image2.png" alt="Preview 3" width="600"/>
+</p>
+
+<p align="center">
+  <img src="./Output_pics/image3.png" alt="Preview 4" width="600"/>
+</p>
+
+<p align="center">
+  <img src="./Output_pics/image4.png" alt="Preview 5" width="600"/>
+</p>
+
+---
 
 A modern React-based project utilizing the latest frontend technologies and tools for building responsive web applications.
 
@@ -26,18 +48,16 @@ A modern React-based project utilizing the latest frontend technologies and tool
    npm install
    # or
    yarn install
-   ```
-   
-2. Start the development server:
-   ```bash
-   npm start
-   # or
-   yarn start
-   ```
+Start the development server:
 
-## 📁 Project Structure
-
-```
+bash
+Copy code
+npm start
+# or
+yarn start
+📁 Project Structure
+bash
+Copy code
 react_app/
 ├── public/             # Static assets
 ├── src/
@@ -52,13 +72,11 @@ react_app/
 ├── package.json        # Project dependencies and scripts
 ├── tailwind.config.js  # Tailwind CSS configuration
 └── vite.config.js      # Vite configuration
-```
+🧩 Adding Routes
+To add new routes to the application, update the Routes.jsx file:
 
-## 🧩 Adding Routes
-
-To add new routes to the application, update the `Routes.jsx` file:
-
-```jsx
+jsx
+Copy code
 import { useRoutes } from "react-router-dom";
 import HomePage from "pages/HomePage";
 import AboutPage from "pages/AboutPage";
@@ -72,34 +90,27 @@ const ProjectRoutes = () => {
 
   return element;
 };
-```
-
-## 🎨 Styling
-
+🎨 Styling
 This project uses Tailwind CSS for styling. The configuration includes:
 
-- Forms plugin for form styling
-- Typography plugin for text styling
-- Aspect ratio plugin for responsive elements
-- Container queries for component-specific responsive design
-- Fluid typography for responsive text
-- Animation utilities
+Forms plugin for form styling
 
-## 📱 Responsive Design
+Typography plugin for text styling
 
+Aspect ratio plugin for responsive elements
+
+Container queries for component-specific responsive design
+
+Fluid typography for responsive text
+
+Animation utilities
+
+📱 Responsive Design
 The app is built with responsive design using Tailwind CSS breakpoints.
 
-
-## 📦 Deployment
-
+📦 Deployment
 Build the application for production:
 
-```bash
+bash
+Copy code
 npm run build
-```
-
-## 🙏 Acknowledgments
-
-- Powered by React and Vite
-- Styled with Tailwind CSS
-
